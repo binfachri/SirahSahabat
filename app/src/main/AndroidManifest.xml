@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="blogspot.xreator.com.sirahsahabat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".abubakar"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".utsman"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ali"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".umar"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".thalhah"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ceritasingkatabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".memelukislamabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".penyiksaanabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".kepemimpinanabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".perangabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".ekspedisiabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".pidatoabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".teksalquranabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".wafatabubakar"
+            android:parentActivityName=".abubakar"/>
+        <activity android:name=".melamarali"
+            android:parentActivityName=".ali"/>
+        <activity android:name=".kisahcintaali"
+            android:parentActivityName=".ali"/>
+        <activity android:name=".setelahmenikahaali"
+            android:parentActivityName=".ali"/>
+        <activity android:name=".bingungali"
+            android:parentActivityName=".ali">
+
+        </activity>
+    </application>
+
+</manifest>

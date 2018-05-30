@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ali">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="melamarali"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:padding="10dp"
+                            android:src="@drawable/melamar" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Lika-liku Melamar"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="kisahcintaali"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="107dp"
+                            android:layout_height="107dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cinta" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Kisah Cinta"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="setelahmenikahali"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:padding="10dp"
+                            android:src="@drawable/keluarga" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Setelah Menikah"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="bingungali"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:padding="10dp"
+                            android:src="@drawable/bingung" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Bingung"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="ceritasingkatali"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:padding="10dp"
+                            android:src="@drawable/ceritasingkat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Cerita Singkat"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="teksalquranabubakar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:padding="10dp"
+                            android:src="@drawable/teksalquran" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Teks Al'quran"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="340dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:onClick="hikmahali"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="105dp"
+                            android:layout_height="105dp"
+                            android:padding="10dp"
+                            android:src="@drawable/hikmah" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="7dp"
+                            android:background="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Hikmah "
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

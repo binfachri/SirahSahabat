@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SplashActivity">
+
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sirah Sahabat"
+        android:textSize="60dp"
+        android:padding="8dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:textColor="#ffff"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:text="Berbagai sejarah tentang perjalanan hidup dan perjuangan sahabat-sahabat nabi"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:textColor="#fff"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:layout_below="@id/deskripsi"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
