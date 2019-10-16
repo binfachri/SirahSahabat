@@ -45,7 +45,10 @@
         <activity android:name=".teksalquranabubakar"
             android:parentActivityName=".abubakar"/>
         <activity android:name=".wafatabubakar"
-            android:parentActivityName=".abubakar"/>
+            android:parentActivityName=".abubakar">
+                        <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
         <activity android:name=".melamarali"
             android:parentActivityName=".ali"/>
         <activity android:name=".kisahcintaali"
