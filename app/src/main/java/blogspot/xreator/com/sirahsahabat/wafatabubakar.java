@@ -39,6 +39,8 @@ public class wafatabubakar extends AppCompatActivity {
 
         wafatabubakar = findViewById(R.id.wafatabubakar);
         wafatabubakar.setText(abubakarwafat);
+                getSupportActionBar().setDisplayShowHomeEnabled(true);
+
 
     }
 }
